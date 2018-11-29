@@ -1,0 +1,23 @@
+
+
+def index(request):
+
+def signup(request):
+def reserve(request):
+
+class RoomListView(PermissionRequiredMixin, generic.ListView):
+
+class RoomDetailView(PermissionRequiredMixin, generic.DetailView):
+
+class ReservationListView(PermissionRequiredMixin, generic.ListView, generic.FormView):
+
+class ReservationDetailView(PermissionRequiredMixin, generic.DetailView):
+
+class CustomerDetailView(PermissionRequiredMixin, generic.DetailView):
+
+class StaffDetailView(PermissionRequiredMixin, generic.DetailView):
+
+class ProfileView(generic.TemplateView):
+
+class GuestListView(PermissionRequiredMixin, generic.ListView):
+
